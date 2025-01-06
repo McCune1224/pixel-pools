@@ -1,0 +1,5 @@
+res://scenes/board.tscn
+res://scenes/CueBall.cs
+res://scenes/Main.cs
+res://scenes/Stick.cs
+res://scripts/RigidBody2d.cs

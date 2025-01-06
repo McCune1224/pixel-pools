@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c002slysbyv0v"]
+
+[ext_resource type="Texture2D" uid="uid://cavw0d7bq6ava" path="res://assets/aesprites/template_ball.svg" id="1_8rc04"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_1nu8j"]
+radius = 24.0
+
+[node name="RigidBody2D" type="RigidBody2D"]
+gravity_scale = 0.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_8rc04")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_1nu8j")

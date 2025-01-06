@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cp8r385slkpho"]
+
+[ext_resource type="Script" path="res://scenes/Stick.cs" id="1_trmp8"]
+[ext_resource type="Texture2D" uid="uid://6mljol8ugqat" path="res://assets/aesprites/stick.svg" id="1_xofed"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jolsf"]
+size = Vector2(4.89081, 1.65432)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 2
+script = ExtResource("1_trmp8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_xofed")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-228, 2.14577e-06)
+scale = Vector2(4.90716, -9.67167)
+shape = SubResource("RectangleShape2D_jolsf")

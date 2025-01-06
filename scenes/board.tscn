@@ -1,0 +1,25 @@
+[gd_scene load_steps=7 format=3 uid="uid://du6hhjxir3u05"]
+
+[ext_resource type="Texture2D" uid="uid://2pgtnbfq2nho" path="res://assets/aesprites/boards.svg" id="1_ha04a"]
+[ext_resource type="Script" path="res://scenes/Main.cs" id="1_lik8x"]
+[ext_resource type="PackedScene" uid="uid://c5ctfskdw5hf2" path="res://scenes/cue_ball.tscn" id="2_t5fge"]
+[ext_resource type="PackedScene" uid="uid://cp8r385slkpho" path="res://scenes/stick.tscn" id="3_1hlkc"]
+[ext_resource type="Script" path="res://scenes/CueBall.cs" id="3_kwh6w"]
+[ext_resource type="PackedScene" uid="uid://c002slysbyv0v" path="res://scenes/regular_ball.tscn" id="4_mwqxc"]
+
+[node name="Board" type="Node"]
+script = ExtResource("1_lik8x")
+BallScene = ExtResource("4_mwqxc")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(1.0025, 1)
+texture = ExtResource("1_ha04a")
+centered = false
+
+[node name="CueBall" parent="." instance=ExtResource("2_t5fge")]
+position = Vector2(1218, 226)
+script = ExtResource("3_kwh6w")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_1hlkc")]
+position = Vector2(1303, 509)

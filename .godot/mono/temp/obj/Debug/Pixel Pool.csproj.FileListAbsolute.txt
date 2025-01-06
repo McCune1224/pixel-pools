@@ -1,0 +1,18 @@
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/bin/Debug/Pixel Pool.deps.json
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/bin/Debug/Pixel Pool.runtimeconfig.json
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/bin/Debug/Pixel Pool.dll
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/bin/Debug/Pixel Pool.pdb
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.csproj.AssemblyReference.cache
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.GeneratedMSBuildEditorConfig.editorconfig
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.AssemblyInfoInputs.cache
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.AssemblyInfo.cs
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.csproj.CoreCompileInputs.cache
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.sourcelink.json
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.csproj.Up2Date
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.dll
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/refint/Pixel Pool.dll
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.pdb
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/Pixel Pool.genruntimeconfig.cache
+/home/mckusa/Code/godot/pixel-pools/.godot/mono/temp/obj/Debug/ref/Pixel Pool.dll
